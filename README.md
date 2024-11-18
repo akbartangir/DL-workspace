@@ -48,3 +48,38 @@ For this project, we use the Conda package manager to manage dependencies. Follo
     conda init --all
     ```
 
+
+## **Setting Up the Environment**
+
+We use `conda` to manage the Python environment for this project.
+
+### **1. Create the Environment**
+Run the following command in the project directory:
+```bash
+conda env create -f environment.yml
+```
+
+### **2. Activate the Environment**
+Run the following command:
+```bash
+conda activate tensorflow
+```
+
+### **3. Deactivate the Environment**
+Run the following command:
+```bash
+conda deactivate
+```
+
+### **4. Run the Jupyter Notebook**
+Run the following command:
+```bash
+jupyter notebook
+```
+
+### **5. Remove the Environment**
+After completing the project, you can remove the environment by running the following command:
+```bash
+conda env remove -n tensorflow
+```
+
