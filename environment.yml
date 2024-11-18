@@ -6,6 +6,7 @@ dependencies:
   - pip
   - pip:
     - tensorflow
+    - tensorflow_datasets
     - numpy
     - opencv-python
     - matplotlib
