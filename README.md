@@ -62,7 +62,7 @@ conda env create -f environment.yml
 ### **2. Activate the Environment**
 Run the following command:
 ```bash
-conda activate tensorflow
+conda activate ml
 ```
 
 ### **3. Deactivate the Environment**
@@ -71,15 +71,10 @@ Run the following command:
 conda deactivate
 ```
 
-### **4. Run the Jupyter Notebook**
-Run the following command:
-```bash
-jupyter notebook
-```
-
-### **5. Remove the Environment**
+### **4. Remove the Environment**
 After completing the project, you can remove the environment by running the following command:
 ```bash
-conda env remove -n tensorflow
+conda env remove -n ml
 ```
 
+*Note: The environment name is `ml`. You can change it by modifying the `name` field in the `environment.yml` file.*
