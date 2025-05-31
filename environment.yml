@@ -1,0 +1,13 @@
+name: ml
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - tensorflow
+    - tensorflow_datasets
+    - numpy
+    - opencv-python
+    - matplotlib
+    - ipykernel

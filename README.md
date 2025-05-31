@@ -48,3 +48,33 @@ For this project, we use the Conda package manager to manage dependencies. Follo
     conda init --all
     ```
 
+
+## **Setting Up the Environment**
+
+We use `conda` to manage the Python environment for this project.
+
+### **1. Create the Environment**
+Run the following command in the project directory:
+```bash
+conda env create -f environment.yml
+```
+
+### **2. Activate the Environment**
+Run the following command:
+```bash
+conda activate ml
+```
+
+### **3. Deactivate the Environment**
+Run the following command:
+```bash
+conda deactivate
+```
+
+### **4. Remove the Environment**
+After completing the project, you can remove the environment by running the following command:
+```bash
+conda env remove -n ml
+```
+
+*Note: The environment name is `ml`. You can change it by modifying the `name` field in the `environment.yml` file.*
